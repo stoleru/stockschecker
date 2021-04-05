@@ -9,7 +9,7 @@ const StockList = (props) => {
   
   return (
     <ListGroup>
-      {(items && items.length) && (
+      {!!(items && items.length) && (
         items.map((item, idx) => (
           <StockListItem data={item} key={idx} />
         ))
