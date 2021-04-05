@@ -1,0 +1,7 @@
+.jumbotron {
+  padding: 20px 40px !important;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
